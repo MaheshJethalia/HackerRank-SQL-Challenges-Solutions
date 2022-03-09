@@ -6,3 +6,4 @@ city not like "%i" and
 city not like "%o" and
 city not like "%u";
 
+//wrong answer doesnt compile
