@@ -17,3 +17,9 @@ from(
   order by Name
 ) as temp
 group by Row;
+
+// Shows error messages 
+ERROR 1064 (42000) at line 3: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Row,
+        case when Occupation='Doctor' then Name end as Doctor,
+        case' at line 8
+//
